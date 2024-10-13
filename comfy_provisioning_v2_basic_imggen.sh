@@ -48,6 +48,10 @@ CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/69832?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     #Dark Sushi 2.5D
     "https://civitai.com/api/download/models/141866?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    #stable cascade stage b
+    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors"
+    #stable cascade stage c
+    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors"
 )
 
 UNET_MODELS=(
