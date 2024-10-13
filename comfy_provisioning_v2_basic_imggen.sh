@@ -26,7 +26,9 @@ NODES=(
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     #"https://github.com/ltdrdata/ComfyUI-Impact-Pack"
-    
+    "https://github.com/BadCafeCode/masquerade-nodes-comfyui.git"
+    "https://github.com/LykosAI/ComfyUI-Inference-Core-Nodes.git"
+    "https://github.com/comfyanonymous/ComfyUI.git"
 )
 
 CHECKPOINT_MODELS=(
@@ -49,9 +51,9 @@ CHECKPOINT_MODELS=(
     #Dark Sushi 2.5D
     "https://civitai.com/api/download/models/141866?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     #stable cascade stage b
-    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors"
+    #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors"
     #stable cascade stage c
-    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors"
+    #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors"
 )
 
 UNET_MODELS=(
@@ -97,6 +99,8 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_seg-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_sketch-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
+    "https://civitai.com/api/download/models/469517?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/469517?type=Config&format=Other"
 )
 
 CLIP_MODELS=(
