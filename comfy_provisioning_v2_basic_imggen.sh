@@ -26,9 +26,10 @@ NODES=(
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     #"https://github.com/ltdrdata/ComfyUI-Impact-Pack"
-    "https://github.com/BadCafeCode/masquerade-nodes-comfyui.git"
-    "https://github.com/LykosAI/ComfyUI-Inference-Core-Nodes.git"
-    "https://github.com/comfyanonymous/ComfyUI.git"
+    "https://github.com/comfyanonymous/ComfyUI"
+    "https://github.com/pythongosssss/ComfyUI-WD14-Tagger"
+    "https://github.com/TinyTerra/ComfyUI_tinyterraNodes"
+    "https://github.com/WASasquatch/was-node-suite-comfyui.git"
 )
 
 CHECKPOINT_MODELS=(
@@ -99,8 +100,8 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_seg-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_sketch-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
-    "https://civitai.com/api/download/models/469517?type=Model&format=SafeTensor"
-    "https://civitai.com/api/download/models/469517?type=Config&format=Other"
+    #"https://civitai.com/api/download/models/469517?type=Model&format=SafeTensor"
+    #"https://civitai.com/api/download/models/469517?type=Config&format=Other"
 )
 
 CLIP_MODELS=(
