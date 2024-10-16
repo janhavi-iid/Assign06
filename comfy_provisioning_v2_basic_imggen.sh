@@ -21,15 +21,15 @@ PIP_PACKAGES=(
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/cubiq/ComfyUI_essentials"
-    "https://github.com/rgthree/rgthree-comfy"
-    "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes"
-    "https://github.com/WASasquatch/was-node-suite-comfyui"
-    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+    #"https://github.com/rgthree/rgthree-comfy"
+   # "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes"
+   # "https://github.com/WASasquatch/was-node-suite-comfyui"
+    #"https://github.com/cubiq/ComfyUI_IPAdapter_plus"
     #"https://github.com/ltdrdata/ComfyUI-Impact-Pack"
-    "https://github.com/comfyanonymous/ComfyUI"
-    "https://github.com/pythongosssss/ComfyUI-WD14-Tagger"
-    "https://github.com/TinyTerra/ComfyUI_tinyterraNodes"
-    "https://github.com/WASasquatch/was-node-suite-comfyui.git"
+    #"https://github.com/comfyanonymous/ComfyUI"
+    #"https://github.com/pythongosssss/ComfyUI-WD14-Tagger"
+    #"https://github.com/TinyTerra/ComfyUI_tinyterraNodes"
+    #"https://github.com/WASasquatch/was-node-suite-comfyui.git"
 )
 
 CHECKPOINT_MODELS=(
@@ -45,16 +45,13 @@ CHECKPOINT_MODELS=(
     "https://civitai.com/api/download/models/130072?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     #MeinaMix
     "https://civitai.com/api/download/models/119057?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-    #Dark Sushi Mix
-    "https://civitai.com/api/download/models/93208?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-    #Disney Pixar Cartoon Type A
-    "https://civitai.com/api/download/models/69832?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-    #Dark Sushi 2.5D
-    "https://civitai.com/api/download/models/141866?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-    #stable cascade stage b
-    #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors"
+    #Dark Sushi Mix "https://civitai.com/api/download/models/93208?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    #Disney Pixar Cartoon Type A "https://civitai.com/api/download/models/69832?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    #Dark Sushi 2.5D "https://civitai.com/api/download/models/141866?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+    #stable cascade stage b 
+    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors"
     #stable cascade stage c
-    #"https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors"
+    "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors"
 )
 
 UNET_MODELS=(
